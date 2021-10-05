@@ -257,6 +257,18 @@ https://templatemo.com/tm-520-highway
           <form action="post" data-netlify="true">
               <div class="row">
                   <div class="col-md-12">
+                    <div class="field">
+    <div data-netlify-recaptcha="true"></div>
+  </div>
+                    <style>
+                    div.g-recaptcha {
+                      margin: 0 auto;
+                      width: 304px;
+                    }
+                    </style>
+
+                    <!-- reCAPTCHA -->
+                    <div class="g-recaptcha" data-sitekey=""></div>
                     <fieldset>
                       <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
                     </fieldset>
@@ -270,23 +282,11 @@ https://templatemo.com/tm-520-highway
                     <fieldset>
                     </fieldset>
                   </div>
-                  <div class="field">
-  <div data-netlify-recaptcha="true"></div>
-</div>
 <div class="col-md-12">
   <fieldset>
     <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
   </fieldset>
 </div>
-<style>
-div.g-recaptcha {
-  margin: 0 auto;
-  width: 304px;
-}
-</style>
-
-<!-- reCAPTCHA -->
-<div class="g-recaptcha" data-sitekey=""></div>
 <div class="col-md-12">
   <fieldset>
     <button type="submit" id="form-submit" class="btn">Send Message Now</button>

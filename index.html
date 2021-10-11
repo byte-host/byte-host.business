@@ -300,19 +300,25 @@ https://templatemo.com/tm-520-highway
   </div>
 
 
-
   <section class="overlay-menu">
     <div class="container">
       <div class="row">
         <div class="main-menu">
-            <ul>
-                <li>
-                    <a href="register.html">Register</a>
-                </li>
-                <li>
-                    <a href="login.html">Login</a>
-                </li>
-            </ul>
+          <title>A static website</title>
+
+<!-- include the widget -->
+<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+<!-- Add a menu:
+ Log in / Sign up - when the user is not logged in
+ Username / Log out - when the user is logged in
+-->
+<div data-netlify-identity-menu></div>
+
+<!-- Add a simpler button:
+  Simple button that will open the modal.
+-->
             <p>Geek Glory</p>
         </div>
       </div>
